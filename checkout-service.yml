@@ -3,7 +3,7 @@ spring:
     name: checkout-service
   config:
     import: 
-      - optional:configserver:http://localhost:9004
+      - "optional:configserver:http://localhost:9004"
   cloud:
     config:
       discovery:
