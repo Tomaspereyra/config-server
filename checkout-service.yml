@@ -1,6 +1,11 @@
 spring:
   application:
     name: checkout-service
+  cloud:
+    config:
+      discovery:
+        serviceId: config-service
+        enabled: true  
     
 server:
   port: 8085
