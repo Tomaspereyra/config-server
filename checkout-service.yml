@@ -1,6 +1,8 @@
 spring:
   application:
     name: checkout-service
+  config:
+    import: "optional:configserver:"
   cloud:
     config:
       discovery:
