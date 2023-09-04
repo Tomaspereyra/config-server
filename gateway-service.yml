@@ -6,6 +6,7 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/dh
+          jwk-set-uri: http://localhost:8080/realms/dh/protocol/openid-connect/certs
   cloud:
     config:
       discovery:
