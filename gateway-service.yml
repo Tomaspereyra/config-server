@@ -22,7 +22,7 @@ spring:
           filters:
             - AddRequestHeader=X-Request-from, gateway
             - AddResponseHeader=X-Response-Red, Blue
-            - StripPrefix=1
+            - StripPrefix=2
         - id: products-service
           uri: lb://products-service
           predicates:
