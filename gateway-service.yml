@@ -1,12 +1,6 @@
 spring:
   application:
     name: gateway-service
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: http://localhost:8080/realms/dh/protocol/openid-connect/certs
-          issuer-uri: http://localhost:8080/realms/dh 
   cloud:
     config:
       discovery:
